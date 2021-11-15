@@ -1,8 +1,11 @@
 #Microsoft Search box Bookmarklet
 
+```js
 javascript:q = "" + (window.getSelection ? window.getSelection() : document.getSelection ? document.getSelection() : document.selection.createRange().text); if (!q) q = prompt("You didn%27t select any text. %C2%A0Enter a search phrase:", ""); if (q!=null) location=("http://www.google.com/search?num=100&q=site:microsoft.com"%C2%A0+ " " + escape(q.replace(/\"/g,"")) + "").replace(/ /g, "+"); void 0``
-
+```
 
 #Github Version
 
+```js
 javascript:q = "" + (window.getSelection ? window.getSelection() : document.getSelection ? document.getSelection() : document.selection.createRange().text); if (!q) q = prompt("You didn%27t select any text. %C2%A0Enter a search phrase:", ""); if (q!=null) location=("http://www.google.com/search?num=100&q=site:github.com"%C2%A0+ " " + escape(q.replace(/\"/g,"")) + "").replace(/ /g, "+"); void 0``
+```
